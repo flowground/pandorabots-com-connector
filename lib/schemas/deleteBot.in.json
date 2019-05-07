@@ -1,0 +1,13 @@
+{
+    "type": "object",
+    "properties": {
+        "app_id": {
+            "required": true,
+            "type": "string"
+        },
+        "botname": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}

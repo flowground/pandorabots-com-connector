@@ -1,0 +1,29 @@
+{
+    "type": "object",
+    "properties": {
+        "app_id": {
+            "required": true,
+            "type": "string"
+        },
+        "botname": {
+            "required": true,
+            "type": "string"
+        },
+        "input": {
+            "required": true,
+            "type": "string"
+        },
+        "client_name": {
+            "required": false,
+            "type": "string"
+        },
+        "sessionid": {
+            "required": false,
+            "type": "string"
+        },
+        "recent": {
+            "required": false,
+            "type": "string"
+        }
+    }
+}

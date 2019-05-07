@@ -1,0 +1,45 @@
+{
+    "type": "object",
+    "properties": {
+        "app_id": {
+            "required": true,
+            "type": "string"
+        },
+        "botname": {
+            "required": true,
+            "type": "string"
+        },
+        "input": {
+            "required": true,
+            "type": "string"
+        },
+        "client_name": {
+            "required": false,
+            "type": "string"
+        },
+        "sessionid": {
+            "type": "string"
+        },
+        "that": {
+            "type": "string"
+        },
+        "topic": {
+            "type": "string"
+        },
+        "extra": {
+            "type": "string"
+        },
+        "reset": {
+            "type": "string"
+        },
+        "trace": {
+            "type": "string"
+        },
+        "reload": {
+            "type": "string"
+        },
+        "recent": {
+            "type": "string"
+        }
+    }
+}
